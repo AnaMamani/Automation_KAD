@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.jalasoft.sfdc.runner.RunCukesTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-09-05T21:23:29" hostname="gui" time="46.356">
+  <properties/>
+  <testcase name="feature[0](Create &quot;Contact&quot;)" classname="com.jalasoft.sfdc.runner.RunCukesTest" time="46.356"/>
+  <system-out><![CDATA[Feature: Create "Contact"
+Initialize the page transporter
+////////kljdag//////////////////////////////////////////////////
+hola mundo ******* local user
+
+  Scenario:                            ?[90m# features/contacts.feature:3?[0m
+    ?[32mGiven ?[0m?[32mI login as "?[0m?[32m?[1mlocal user?[0m?[32m" User?[0m ?[90m# LoginSteps.loginAsUser(String)?[0m
+    ?[33mWhen ?[0m?[33mI go to the Contact page?[0m      ?[90m# ContactSteps.iGoToTheContactPage()?[0m
+      ?[31mcucumber.api.PendingException: TODO: implement me
+      	at com.jalasoft.sfdc.steps.ContactSteps.iGoToTheContactPage(ContactSteps.java:22)
+      	at ?.When I go to the Contact page(features/contacts.feature:5)
+      ?[0m
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
